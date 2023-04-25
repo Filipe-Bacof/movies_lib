@@ -56,3 +56,19 @@
 .description p {
     line-height: 1.4rem;
 }
+
+@media (max-width: 800px) {
+    .movie-page .movie-card img {
+        max-width: 90%;
+        justify-content: center;
+    }
+
+    .movie-page {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    .movie-page * {
+        justify-content: center;
+        text-align: center;
+    }
+}
