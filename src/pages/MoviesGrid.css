@@ -59,3 +59,13 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media (max-width: 800px) {
+    .movies-container {
+        min-width: 100%;
+        justify-content: center;
+    }
+    .movies-container div {
+        width: 90%;
+    }
+}

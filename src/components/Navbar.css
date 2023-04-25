@@ -40,3 +40,18 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media (max-width: 800px) {
+    #navbar {
+        flex-wrap: wrap;
+    }
+
+    #navbar h2,
+    #navbar form {
+        margin: 1rem auto;
+    }
+
+    #navbar h2 a {
+        flex-wrap: wrap;
+    }
+}
